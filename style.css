@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro&display=swap');
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Be Vietnam Pro', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    color: #6217C1;
+    background-color: #1E1E1E;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: linear-gradient(150deg, #6217C1, #1E1E1E);
+    height: calc(100vh + 60px);
+    overflow: hidden;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.name::first-line{
+    background-color: #1E1E1E;
+    color: #6217C1;
+}
+.name{
+    color: #d9d9d9;
+    font-size: 1.2rem;
+}
+#header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 41px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #1E1E1E;
+    background-color: #fff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 240px;
+    padding-block: 9px;
+    margin-bottom: 20px;
+    transition: .6s;
+}
+a:hover{
+    color: #fff;
+    background-color: #6217C1;
+    border: 1px solid #fff;
+}
+#boxLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: #6217C1;
+    max-width: 400px;
+    width: 92%;
+    border-radius: 8px;
+    padding: 52px 26px;
+    box-shadow: 0px 0px 22px #1E1E1E;
+}
+
+footer{
+    color: #fff;
+    opacity: 50%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 800px){
+    body{
+        overflow: visible;
+    }
+}
