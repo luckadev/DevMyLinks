@@ -15,8 +15,9 @@ font-family: 'Be Vietnam Pro', sans-serif;
 }
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
-    background: #0f0f0f;
+    background: #080808;
     height: calc(100vh + 60px);
+    color: #fff;
 }
 h1{
     font-family: 'Anton', sans-serif;
@@ -29,6 +30,11 @@ h1{
 h1 i{
     padding: 5px;
     color: #925DD4;
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
 }
 .name::first-line{
     background-color: #925DD4;
@@ -46,29 +52,32 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    color: #1E1E1E;
-    background-color: #fff;
+    gap: 12px;
+    color: #fff;
+    background-color: #1E1E1E;
     text-decoration: none;
     border: 1px solid transparent;
     border-radius: 10px;
     width: 100%;
     max-width: 450px;
     padding-block: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
+    font-size: 20px;
+    cursor: pointer;
     transition: .5s;
 }
 a:hover{
     color: #fff;
-    background-color: #925DD4;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
+    filter: saturate(150%);
+    font-size: 21px;
 }
 span{
     color: #925DD4;
 }
 #boxLinks{
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     margin: 0 auto;
     flex-direction: column;
@@ -77,10 +86,39 @@ span{
     border-radius: 8px;
     padding: 15px 26px 0px 26px;
 }
+.lastBtn{
+    margin-bottom: 0px;
+}
 
 footer{
     color: #D9D9D9;
     padding-inline: 40px;
     text-align: center;
     margin-top: 15px;
+}
+
+/* Buttons */
+#btn1{
+    background-color: #7838FF;
+    color: #fff;
+}
+.btn2{
+    background-color: #3AAF62;
+    color: #fff;
+}
+#btn3{
+    background-color: #B24479;
+    color: #fff;
+}
+#btn4{
+    background-color: #3E6EE9;
+    color: #fff;
+}
+#btn5{
+    background-color: #282A36;
+    color: #fff;
+}
+#btn6{
+    background-color: #1E1E1E;
+    color: #fff;
 }
