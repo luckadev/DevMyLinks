@@ -29,7 +29,7 @@ h1{
 }
 h1 i{
     padding: 5px;
-    color: #925DD4;
+    color: #3E6EE9;
 }
 h2{
     font-weight: 400;
@@ -37,8 +37,7 @@ h2{
     line-height: 60px;
 }
 .name::first-line{
-    background-color: #925DD4;
-    color: #1E1E1E;
+    color: #D9D9D9;
 }
 .name{
     font-size: 17px;
@@ -47,6 +46,10 @@ h2{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+#header img {
+    border-radius: 50%;
+    border: 3px solid #fff;
 }
 a{
     display: flex;
