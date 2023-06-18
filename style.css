@@ -10,7 +10,7 @@ font-family: 'Be Vietnam Pro', sans-serif;
     box-sizing: border-box;
 }
 ::selection{
-    color: #925DD4;
+    color: #fff;
     background-color: #1e1e1e;
 }
 body{
