@@ -29,7 +29,7 @@ h1{
 }
 h1 i{
     padding: 5px;
-    color: #3E6EE9;
+    color: #da4242;
 }
 h2{
     font-weight: 400;
@@ -100,9 +100,14 @@ footer{
     margin-top: 15px;
 }
 
+footer small{
+    color: #D9D9D9;
+    padding-bottom: 15px;
+}
+
 /* Buttons */
 #btn1{
-    background-color: #7838FF;
+    background-color: #da4242;
     color: #fff;
 }
 .btn2{
@@ -110,7 +115,7 @@ footer{
     color: #fff;
 }
 #btn3{
-    background-color: #B24479;
+    background-color: #446ab2;
     color: #fff;
 }
 #btn4{
