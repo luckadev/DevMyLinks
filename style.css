@@ -1,5 +1,15 @@
 /* font-family: Polka, sans-serif; */
 
+@font-face {
+    font-family: "Polka Outline";
+    src: url('fonts/polka-outline.otf') format('otf') url('fonts/polka-outline.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('fonts/coolvetica\ rg.otf') format('otf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +37,7 @@ body {
 .bg-animation {
     color: var(--white);
     font-family: Polka Outline;
-    font-size: 49.941px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 400;
     line-height: 46.099px; /* 92.308% */
@@ -40,14 +50,16 @@ body {
     position: absolute;
     top: 2.4rem;
     z-index: -1;
+    width: 90%;
+    max-width: 400px;
 }
 
 .bg-animation .bg-dev {
-    transform: translateX(10rem);
+    text-align: end;
 }
 
 .bg-animation .bg-designer {
-    transform: translateX(-10rem);
+    text-align: start;
 }
 
 header {
@@ -102,6 +114,7 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-block: 2.6rem;
 }
 
 .div-btn a {
@@ -148,4 +161,17 @@ h2 {
     max-width: 270px;
     text-align: center;
     margin: 0 auto;
+}
+
+.footer {
+    display: block;
+    margin-bottom: 1.8rem;
+    color: var(--grey-2, #7D7E82);
+    text-align: center;
+    font-family: Coolvetica;
+    font-size: 11.23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10.366px; /* 92.308% */
+    text-transform: capitalize;
 }

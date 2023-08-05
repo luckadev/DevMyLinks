@@ -7,7 +7,6 @@
     <meta http-equiv="content-language" content="pt-br, en-US"/>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/0642c68ef3.js" crossorigin="anonymous"></script>
-    <script type="module" src="index.js" defer></script>
     <title>Lucas Ribeiro - Links</title>
     <meta name="keywords" content="">
     <meta name="author" content="Lucas Ribeiro"/>
@@ -18,10 +17,10 @@
 
     <header>
         <!-- BG Animation -->
-        <!-- <div class="bg-animation">
+        <div class="bg-animation">
             <p class="bg-dev">Developer</p>
             <p class="bg-designer">Designer</p>
-        </div> -->
+        </div>
 
         <img src="./assets/profile.png" alt="My Photo" width="115" height="115" >
         <h1>Lucas Ribeiro</h1>
@@ -135,5 +134,19 @@
         </a>
     </div>
 
+    <small class="footer">&copy; Lucas Ribeiro. All Rights Reserved</small>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script>
+
+        let tl = gsap.timeline({ defaults: { ease: 'power4.inOut', duration: 2 }});
+
+        tl.to('h1', { clipPath: 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration: 2.2 })
+        tl.from('.bg-dev', { opacity: 0, duration: 1, x: 10, absolute: true }, 1.5);
+        tl.from('.bg-designer', { opacity: 0, duration: 1, x: -10, absolute: true }, 1.5);
+
+    </script>
 </body>
 </html>
