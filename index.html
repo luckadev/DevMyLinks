@@ -7,6 +7,7 @@
     <meta http-equiv="content-language" content="pt-br, en-US"/>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/0642c68ef3.js" crossorigin="anonymous"></script>
+    <script type="module" src="index.js" defer></script>
     <title>Lucas Ribeiro - Links</title>
     <meta name="keywords" content="">
     <meta name="author" content="Lucas Ribeiro"/>
@@ -15,28 +16,124 @@
 </head>
 <body>
 
-    <div id="header">
-        <img src="./assets/logo.png" width="120" alt="meuEmoji">
-        <h1><i class="fa-solid fa-chevron-left"></i>My Links<i class="fa-solid fa-chevron-right"></i></h1>
-        <p class="name">Lucas Ribeiro - Web Developer</p>
-    </div>
+    <header>
+        <!-- BG Animation -->
+        <!-- <div class="bg-animation">
+            <p class="bg-dev">Developer</p>
+            <p class="bg-designer">Designer</p>
+        </div> -->
 
-    <div id="boxLinks">
-        <h2>Pessoais</h2>
-        <a id="btn1" target="_blank" href="https://lucasdeveloper.netlify.app/"><strong>&lt;/&gt;</strong>Portfólio</a>
-        <!-- <a id="btn4" target="_blank" href="https://devfrontchallenges.netlify.app/" class="lastBtn"><i class="fa-solid fa-layer-group fa-lg"></i>Challenges</a> -->
-    </div>
+        <img src="./assets/profile.png" alt="My Photo" width="115" height="115" >
+        <h1>Lucas Ribeiro</h1>
+        <h2>Web Developer & UI Designer</h2>
 
-    <div id="boxLinks">
-        <h2>Redes sociais</h2>
-        <a id="btn3" target="_blank" href="https://instagram.com/ribeiroo.dev/"><i class="fa-brands fa-instagram fa-xl"></i>Instagram</a>
-        <a id="btn5" target="_blank" href="https://github.com/devlucaspro"><i class="fa-brands fa-github fa-xl"></i>Github</a>
-        <a id="btn6" target="_blank" href="https://www.linkedin.com/in/devlucaspro/"><i class="fa-brands fa-linkedin fa-xl"></i>LinkedIn</a>
-    </div>
+        <div class="svg-div">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                <g clip-path="url(#clip0_217_485)">
+                  <path d="M21.1526 11.113H17.467L14.7028 19.4056L9.17439 2.82043L6.4102 11.113H2.72461" stroke="url(#paint0_linear_217_485)" stroke-width="1.8428" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                  <linearGradient id="paint0_linear_217_485" x1="11.9386" y1="2.82043" x2="11.9386" y2="19.4056" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FF4140"/>
+                    <stop offset="1" stop-color="#FF4140" stop-opacity="0"/>
+                  </linearGradient>
+                  <clipPath id="clip0_217_485">
+                    <rect width="22.1135" height="22.1135" fill="white" transform="translate(0.881836 0.0562134)"/>
+                  </clipPath>
+                </defs>
+            </svg>
 
-    <footer>
-        <small>Made with ❣️ by Lucas Ribeiro</small>
-    </footer>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+            <path d="M15.0186 16.6414L20.5469 11.113L15.0186 5.58459" stroke="url(#paint0_linear_217_482)" stroke-width="1.8428" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.64655 5.58459L2.11816 11.113L7.64655 16.6414" stroke="url(#paint1_linear_217_482)" stroke-width="1.8428" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+                <linearGradient id="paint0_linear_217_482" x1="17.7827" y1="5.58459" x2="17.7827" y2="16.6414" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF4140"/>
+                <stop offset="1" stop-color="#FF4140" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear_217_482" x1="4.88236" y1="5.58459" x2="4.88236" y2="16.6414" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF4140"/>
+                <stop offset="1" stop-color="#FF4140" stop-opacity="0"/>
+                </linearGradient>
+            </defs>
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+            <path d="M3.43457 16.6413V11.113C3.43457 8.91362 4.30825 6.80437 5.86341 5.24921C7.41857 3.69405 9.52782 2.82037 11.7271 2.82037C13.9265 2.82037 16.0357 3.69405 17.5909 5.24921C19.146 6.80437 20.0197 8.91362 20.0197 11.113V16.6413" stroke="url(#paint0_linear_217_487)" stroke-width="1.8428" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20.0197 17.5627C20.0197 18.0515 19.8256 18.5202 19.48 18.8658C19.1344 19.2114 18.6657 19.4055 18.1769 19.4055H17.2555C16.7668 19.4055 16.2981 19.2114 15.9525 18.8658C15.6069 18.5202 15.4127 18.0515 15.4127 17.5627V14.7985C15.4127 14.3098 15.6069 13.8411 15.9525 13.4955C16.2981 13.1499 16.7668 12.9557 17.2555 12.9557H20.0197V17.5627ZM3.43457 17.5627C3.43457 18.0515 3.62872 18.5202 3.97431 18.8658C4.3199 19.2114 4.78863 19.4055 5.27737 19.4055H6.19876C6.6875 19.4055 7.15622 19.2114 7.50182 18.8658C7.84741 18.5202 8.04156 18.0515 8.04156 17.5627V14.7985C8.04156 14.3098 7.84741 13.8411 7.50182 13.4955C7.15622 13.1499 6.6875 12.9557 6.19876 12.9557H3.43457V17.5627Z" stroke="url(#paint1_linear_217_487)" stroke-width="1.8428" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+                <linearGradient id="paint0_linear_217_487" x1="11.7271" y1="2.82037" x2="11.7271" y2="16.6413" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF4140"/>
+                <stop offset="1" stop-color="#FF4140" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear_217_487" x1="11.7271" y1="12.9557" x2="11.7271" y2="19.4055" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF4140"/>
+                <stop offset="1" stop-color="#FF4140" stop-opacity="0"/>
+                </linearGradient>
+            </defs>
+            </svg>
+        </div>
+    </header>
+
+    <div class="div-btn">
+        <a href="https://lucasdeveloper.netlify.app/">
+            <span class="btn-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                    <path d="M21.6855 24.461L29.5621 16.5844L21.6855 8.70782" stroke="#7D7E82" stroke-width="2.62552" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.1832 8.70782L3.30664 16.5844L11.1832 24.461" stroke="#7D7E82" stroke-width="2.62552" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <span class="btn-line"></span>
+            <span class="btn-text">Porfolio</span>
+        </a>
+        <a href="https://www.instagram.com/ribeiroo.dev">
+            <span class="btn-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
+                    <path d="M20.5732 3.07294H8.73991C5.47222 3.07294 2.82324 5.72192 2.82324 8.9896V20.8229C2.82324 24.0906 5.47222 26.7396 8.73991 26.7396H20.5732C23.8409 26.7396 26.4899 24.0906 26.4899 20.8229V8.9896C26.4899 5.72192 23.8409 3.07294 20.5732 3.07294Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.3891 14.1607C19.5351 15.1456 19.3669 16.1514 18.9084 17.0351C18.4498 17.9188 17.7243 18.6354 16.835 19.083C15.9457 19.5306 14.9379 19.6864 13.955 19.5283C12.972 19.3701 12.064 18.906 11.36 18.202C10.656 17.498 10.1919 16.59 10.0338 15.607C9.87558 14.6241 10.0314 13.6163 10.479 12.727C10.9266 11.8377 11.6432 11.1122 12.5269 10.6536C13.4107 10.1951 14.4164 10.0269 15.4013 10.1729C16.4058 10.3219 17.3358 10.79 18.0539 11.5081C18.772 12.2262 19.2401 13.1562 19.3891 14.1607Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.165 8.39795H21.1773" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <span class="btn-line"></span>
+            <span class="btn-text">Instagram</span>
+        </a>
+        <a href="https://www.behance.com/devlucaspro">
+            <span class="btn-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="19" viewBox="0 0 29 19" fill="none">
+                    <path d="M11.6806 8.55347C13.2816 7.78819 14.1174 6.6302 14.1174 4.82777C14.1174 1.27326 11.4691 0.407288 8.41302 0.407288H0V18.2503H8.64965C11.892 18.2503 14.938 16.6946 14.938 13.0696C14.938 10.8292 13.8757 9.17274 11.6806 8.55347ZM3.92205 3.45329H7.60243C9.01719 3.45329 10.291 3.85104 10.291 5.49236C10.291 7.00781 9.29913 7.61701 7.89948 7.61701H3.92205V3.45329ZM8.11597 15.2194H3.92205V10.3056H8.19653C9.92344 10.3056 11.016 11.0255 11.016 12.8531C11.016 14.6556 9.71198 15.2194 8.11597 15.2194ZM26.1655 3.10086H18.9306V1.34375H26.1655V3.10086ZM29 11.9771C29 8.15573 26.7646 4.96875 22.7116 4.96875C18.7745 4.96875 16.101 7.92916 16.101 11.8059C16.101 15.8286 18.6335 18.5877 22.7116 18.5877C25.7979 18.5877 27.7967 17.1981 28.7583 14.2427H25.6267C25.2894 15.3453 23.8998 15.9293 22.8224 15.9293C20.7431 15.9293 19.6505 14.7109 19.6505 12.6417H28.9698C28.9849 12.4302 29 12.2036 29 11.9771ZM19.6556 10.4062C19.7714 8.70954 20.8991 7.64722 22.6009 7.64722C24.3832 7.64722 25.2793 8.69444 25.4304 10.4062H19.6556Z" fill="#7D7E82"/>
+                </svg>
+            </span>
+            <span class="btn-line"></span>
+            <span class="btn-text">Behance</span>
+        </a>
+        <a href="https://github.com/devlucaspro">
+            <span class="btn-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
+                    <g clip-path="url(#clip0_217_531)">
+                      <path d="M11.1066 23.2896C5.18991 25.0646 5.18991 20.3313 2.82324 19.7396M19.3899 26.8396V22.2601C19.4343 21.6958 19.3581 21.1286 19.1663 20.5961C18.9745 20.0636 18.6715 19.578 18.2776 19.1716C21.9932 18.7574 25.8982 17.3493 25.8982 10.8883C25.8979 9.23612 25.2624 7.64734 24.1232 6.45076C24.6627 5.00532 24.6245 3.40764 24.0167 1.98959C24.0167 1.98959 22.6204 1.57542 19.3899 3.74092C16.6777 3.00586 13.8188 3.00586 11.1066 3.74092C7.87608 1.57542 6.47974 1.98959 6.47974 1.98959C5.87195 3.40764 5.83381 5.00532 6.37324 6.45076C5.22556 7.65622 4.58939 9.25936 4.59824 10.9238C4.59824 17.3374 8.50324 18.7456 12.2189 19.2071C11.8296 19.6094 11.5293 20.0892 11.3377 20.6152C11.146 21.1412 11.0673 21.7016 11.1066 22.2601V26.8396" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_217_531">
+                        <rect width="28.4" height="28.4" fill="white" transform="translate(0.456055 0.806274)"/>
+                      </clipPath>
+                    </defs>
+                </svg>
+            </span>
+            <span class="btn-line"></span>
+            <span class="btn-text">Github</span>
+        </a>
+        <a href="https://www.linkedin.com/in/devlucaspro">
+            <span class="btn-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                    <path d="M19.3891 9.81671C21.2721 9.81671 23.078 10.5647 24.4095 11.8963C25.741 13.2278 26.4891 15.0337 26.4891 16.9167V25.2H21.7557V16.9167C21.7557 16.289 21.5064 15.6871 21.0625 15.2432C20.6187 14.7994 20.0167 14.55 19.3891 14.55C18.7614 14.55 18.1594 14.7994 17.7156 15.2432C17.2717 15.6871 17.0224 16.289 17.0224 16.9167V25.2H12.2891V16.9167C12.2891 15.0337 13.0371 13.2278 14.3686 11.8963C15.7001 10.5647 17.506 9.81671 19.3891 9.81671Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.55658 11H2.82324V25.2H7.55658V11Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.18991 7.45001C6.49698 7.45001 7.55658 6.39042 7.55658 5.08334C7.55658 3.77627 6.49698 2.71667 5.18991 2.71667C3.88283 2.71667 2.82324 3.77627 2.82324 5.08334C2.82324 6.39042 3.88283 7.45001 5.18991 7.45001Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <span class="btn-line"></span>
+            <span class="btn-text">Linkedin</span>
+        </a>
+    </div>
 
 </body>
 </html>
