@@ -15,14 +15,12 @@
 </head>
 <body>
 
+    <div class="banner">
+        <img src="./assets/Banner-links.png" alt="Banner">
+    </div>
     <header>
-        <!-- BG Animation -->
-        <div class="bg-animation">
-            <p class="bg-dev">Developer</p>
-            <p class="bg-designer">Designer</p>
-        </div>
 
-        <img src="./assets/photoprofile.png" alt="Lucas Ribeiro" width="115" height="115" >
+        <img class="photoprofile" src="./assets/photoprofile.png" alt="Lucas Ribeiro" width="115" height="115" >
         <h1>Lucas Ribeiro</h1>
         <h2>Web Developer & UI Designer</h2>
 
@@ -75,86 +73,41 @@
     </header>
 
     <div class="div-btn">
-        <a href="https://lucasdeveloper.netlify.app/">
-            <span class="btn-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
-                    <path d="M21.6855 24.461L29.5621 16.5844L21.6855 8.70782" stroke="#7D7E82" stroke-width="2.62552" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M11.1832 8.70782L3.30664 16.5844L11.1832 24.461" stroke="#7D7E82" stroke-width="2.62552" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </span>
-            <span class="btn-line"></span>
-            <span class="btn-text">Porfolio</span>
+
+        <a class="btn1" href="https://api.whatsapp.com/send?phone=5511953600978&text=Opa!%20vim%20pelo%20Instagram%20e%20desejo%20fazer%20um%20or%C3%A7amento">
+            <span class="btn-text">Orçamentos</span>
         </a>
-        <a href="https://www.instagram.com/luckadev">
-            <span class="btn-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
-                    <path d="M20.5732 3.07294H8.73991C5.47222 3.07294 2.82324 5.72192 2.82324 8.9896V20.8229C2.82324 24.0906 5.47222 26.7396 8.73991 26.7396H20.5732C23.8409 26.7396 26.4899 24.0906 26.4899 20.8229V8.9896C26.4899 5.72192 23.8409 3.07294 20.5732 3.07294Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M19.3891 14.1607C19.5351 15.1456 19.3669 16.1514 18.9084 17.0351C18.4498 17.9188 17.7243 18.6354 16.835 19.083C15.9457 19.5306 14.9379 19.6864 13.955 19.5283C12.972 19.3701 12.064 18.906 11.36 18.202C10.656 17.498 10.1919 16.59 10.0338 15.607C9.87558 14.6241 10.0314 13.6163 10.479 12.727C10.9266 11.8377 11.6432 11.1122 12.5269 10.6536C13.4107 10.1951 14.4164 10.0269 15.4013 10.1729C16.4058 10.3219 17.3358 10.79 18.0539 11.5081C18.772 12.2262 19.2401 13.1562 19.3891 14.1607Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M21.165 8.39795H21.1773" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </span>
-            <span class="btn-line"></span>
-            <span class="btn-text">Instagram</span>
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=5511953600978&text=Opa!%20vim%20pelo%20Instagram%20e%20desejo%20fazer%20um%20or%C3%A7amento">
-            <span class="btn-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                    <path d="M23.1934 4.68945C20.7383 2.22852 17.4687 0.875 13.9941 0.875C6.82227 0.875 0.986328 6.71094 0.986328 13.8828C0.986328 16.1738 1.58398 18.4121 2.7207 20.3867L0.875 27.125L7.77148 25.3145C9.66992 26.3516 11.8086 26.8965 13.9883 26.8965H13.9941C21.1602 26.8965 27.125 21.0605 27.125 13.8887C27.125 10.4141 25.6484 7.15039 23.1934 4.68945ZM13.9941 24.7051C12.0488 24.7051 10.1445 24.1836 8.48633 23.1992L8.09375 22.9648L4.00391 24.0371L5.09375 20.0469L4.83594 19.6367C3.75195 17.9141 3.18359 15.9277 3.18359 13.8828C3.18359 7.92383 8.03516 3.07227 14 3.07227C16.8887 3.07227 19.6016 4.19727 21.6406 6.24219C23.6797 8.28711 24.9336 11 24.9277 13.8887C24.9277 19.8535 19.9531 24.7051 13.9941 24.7051ZM19.9238 16.6074C19.6016 16.4434 18.002 15.6582 17.7031 15.5527C17.4043 15.4414 17.1875 15.3887 16.9707 15.7168C16.7539 16.0449 16.1328 16.7715 15.9395 16.9941C15.752 17.2109 15.5586 17.2402 15.2363 17.0762C13.3262 16.1211 12.0723 15.3711 10.8125 13.209C10.4785 12.6348 11.1465 12.6758 11.7676 11.4336C11.873 11.2168 11.8203 11.0293 11.7383 10.8652C11.6562 10.7012 11.0059 9.10156 10.7363 8.45117C10.4727 7.81836 10.2031 7.90625 10.0039 7.89453C9.81641 7.88281 9.59961 7.88281 9.38281 7.88281C9.16602 7.88281 8.81445 7.96484 8.51562 8.28711C8.2168 8.61523 7.37891 9.40039 7.37891 11C7.37891 12.5996 8.54492 14.1465 8.70313 14.3633C8.86719 14.5801 10.9941 17.8613 14.2578 19.2734C16.3203 20.1641 17.1289 20.2402 18.1602 20.0879C18.7871 19.9941 20.082 19.3027 20.3516 18.541C20.6211 17.7793 20.6211 17.1289 20.5391 16.9941C20.4629 16.8477 20.2461 16.7656 19.9238 16.6074Z" fill="#7D7E82"/>
-                </svg>
-            </span>
-            <span class="btn-line"></span>
-            <span class="btn-text">Orçamento</span>
-        </a>
-        <a href="https://www.behance.com/luckadev">
-            <span class="btn-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="19" viewBox="0 0 29 19" fill="none">
-                    <path d="M11.6806 8.55347C13.2816 7.78819 14.1174 6.6302 14.1174 4.82777C14.1174 1.27326 11.4691 0.407288 8.41302 0.407288H0V18.2503H8.64965C11.892 18.2503 14.938 16.6946 14.938 13.0696C14.938 10.8292 13.8757 9.17274 11.6806 8.55347ZM3.92205 3.45329H7.60243C9.01719 3.45329 10.291 3.85104 10.291 5.49236C10.291 7.00781 9.29913 7.61701 7.89948 7.61701H3.92205V3.45329ZM8.11597 15.2194H3.92205V10.3056H8.19653C9.92344 10.3056 11.016 11.0255 11.016 12.8531C11.016 14.6556 9.71198 15.2194 8.11597 15.2194ZM26.1655 3.10086H18.9306V1.34375H26.1655V3.10086ZM29 11.9771C29 8.15573 26.7646 4.96875 22.7116 4.96875C18.7745 4.96875 16.101 7.92916 16.101 11.8059C16.101 15.8286 18.6335 18.5877 22.7116 18.5877C25.7979 18.5877 27.7967 17.1981 28.7583 14.2427H25.6267C25.2894 15.3453 23.8998 15.9293 22.8224 15.9293C20.7431 15.9293 19.6505 14.7109 19.6505 12.6417H28.9698C28.9849 12.4302 29 12.2036 29 11.9771ZM19.6556 10.4062C19.7714 8.70954 20.8991 7.64722 22.6009 7.64722C24.3832 7.64722 25.2793 8.69444 25.4304 10.4062H19.6556Z" fill="#7D7E82"/>
-                </svg>
-            </span>
-            <span class="btn-line"></span>
+
+        <a class="btn2" href="https://www.behance.com/luckadev">
             <span class="btn-text">Behance</span>
         </a>
-        <a href="https://github.com/luckadev">
-            <span class="btn-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
-                    <g clip-path="url(#clip0_217_531)">
-                      <path d="M11.1066 23.2896C5.18991 25.0646 5.18991 20.3313 2.82324 19.7396M19.3899 26.8396V22.2601C19.4343 21.6958 19.3581 21.1286 19.1663 20.5961C18.9745 20.0636 18.6715 19.578 18.2776 19.1716C21.9932 18.7574 25.8982 17.3493 25.8982 10.8883C25.8979 9.23612 25.2624 7.64734 24.1232 6.45076C24.6627 5.00532 24.6245 3.40764 24.0167 1.98959C24.0167 1.98959 22.6204 1.57542 19.3899 3.74092C16.6777 3.00586 13.8188 3.00586 11.1066 3.74092C7.87608 1.57542 6.47974 1.98959 6.47974 1.98959C5.87195 3.40764 5.83381 5.00532 6.37324 6.45076C5.22556 7.65622 4.58939 9.25936 4.59824 10.9238C4.59824 17.3374 8.50324 18.7456 12.2189 19.2071C11.8296 19.6094 11.5293 20.0892 11.3377 20.6152C11.146 21.1412 11.0673 21.7016 11.1066 22.2601V26.8396" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_217_531">
-                        <rect width="28.4" height="28.4" fill="white" transform="translate(0.456055 0.806274)"/>
-                      </clipPath>
-                    </defs>
-                </svg>
-            </span>
-            <span class="btn-line"></span>
-            <span class="btn-text">Github</span>
+
+        <a class="btn3" href="https://www.instagram.com/luckadev">
+            <span class="btn-text">Instagram</span>
         </a>
-        <a href="https://www.linkedin.com/in/luckadev">
-            <span class="btn-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
-                    <path d="M19.3891 9.81671C21.2721 9.81671 23.078 10.5647 24.4095 11.8963C25.741 13.2278 26.4891 15.0337 26.4891 16.9167V25.2H21.7557V16.9167C21.7557 16.289 21.5064 15.6871 21.0625 15.2432C20.6187 14.7994 20.0167 14.55 19.3891 14.55C18.7614 14.55 18.1594 14.7994 17.7156 15.2432C17.2717 15.6871 17.0224 16.289 17.0224 16.9167V25.2H12.2891V16.9167C12.2891 15.0337 13.0371 13.2278 14.3686 11.8963C15.7001 10.5647 17.506 9.81671 19.3891 9.81671Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.55658 11H2.82324V25.2H7.55658V11Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M5.18991 7.45001C6.49698 7.45001 7.55658 6.39042 7.55658 5.08334C7.55658 3.77627 6.49698 2.71667 5.18991 2.71667C3.88283 2.71667 2.82324 3.77627 2.82324 5.08334C2.82324 6.39042 3.88283 7.45001 5.18991 7.45001Z" stroke="#7D7E82" stroke-width="2.36667" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </span>
-            <span class="btn-line"></span>
-            <span class="btn-text">Linkedin</span>
+
+        <a class="btn4" href="https://lucasdeveloper.netlify.app/">
+            Porfolio
         </a>
+
+        
     </div>
 
     <small class="footer">&copy; Lucas Ribeiro. All Rights Reserved</small>
+
+    <img class="blur1" src="./assets/blur-bottom2.svg" alt="Blur">
+    <img class="blur2" src="./assets/blur-bottom.svg" alt="Blur">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
     <script>
 
-        let tl = gsap.timeline({ defaults: { ease: 'power4.inOut', duration: 2 }});
+        let tl = gsap.timeline({ defaults: { ease: 'power4.inOut', duration: 1 }});
 
-        tl.to('h1', { clipPath: 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration: 2.2 })
-        tl.from('.bg-dev', { opacity: 0, duration: 1, x: 10, absolute: true }, 1.5);
-        tl.from('.bg-designer', { opacity: 0, duration: 1, x: -10, absolute: true }, 1.5);
+        tl.from('h1', { opacity: 0, y: -5 })
+        tl.from('h2', { opacity: 0, y: -5 }, '0.5')
+        tl.from('.svg-div svg', { opacity: 0, x: -5, stagger: .4 })
 
     </script>
 </body>
